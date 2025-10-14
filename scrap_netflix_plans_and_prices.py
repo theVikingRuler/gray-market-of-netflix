@@ -1,3 +1,4 @@
+
 import requests
 import re
 import os
@@ -10,8 +11,14 @@ ALL_REGIONS = [
     {"value":"ZW","label":"Zimbabwe"}]
    
 SCRAPED_REGIONS = []
+BASE_URL = 'https://help.netflix.com/en/node/24926/'
 
-def extract_netflix_pricing(url):
+def extract_netflix_pricing(url: str) -> dict:
+    """
+        crawls the netflix plans and pricing page
+        searches for the plans and their pricing
+        exports result for each region
+    """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/115.0"
     }
@@ -47,29 +54,60 @@ def extract_netflix_pricing(url):
     return pricing
 
 
+def read_scraped_regions():
+    """
+        called at the start of the program
+        alters the global SCRAPED_REGIONS
+    """
+    scraped_regions = list()
+    file = open("scraped_regions.txt", "a")
+    file.close()
+    file = open("scraped_regions.txt", "r")
+    file_content = file.read()
+    scraped_regions = file.content.split(",")
+    file.close()
+    return scraped_regions
+
+def save_scraped_regions():
+    """
+        run when the program crashes
+    """
+    file = open("scraped_regions.txt", "w")
+    data = ','.join(SCRAPED_REGIONS)
+    file.write(data)
+    file.close()
 
 os.system("clear")
-base_url = 'https://help.netflix.com/en/node/24926/'
 
-file = open("result.txt", "a")
+try:
+    SCRAPED_REGIONS = read_scraped_regions()
 
-for region in ALL_REGIONS:
+    file = open("result.txt", "a")
 
-    country_code = region['value'].lower()
+    for region in ALL_REGIONS:
 
-    if country_code in SCRAPED_REGIONS:
-        continue
+        country_code = region['value'].lower()
 
-    target_url = base_url + country_code
+        if country_code in SCRAPED_REGIONS:
+            continue
 
-    data = extract_netflix_pricing(target_url)
+        target_url = base_url + country_code
 
-    line_list = [country_code, region['label'], data.get('Mobile', '0'), data.get('Basic', '0'), data.get('Standard', '0'), data.get('Premium', '0')]
+        data = extract_netflix_pricing(target_url)
 
-    line_str = ','.join(line_list)
-    file.write(line_str)
+        if data == {}:
+            continue
 
-    print('added')
-    ALL_REGIONS.append(country_code)
+        line_list = [country_code, region['label'], data.get('Mobile', '0'), data.get('Basic', '0'), data.get('Standard', '0'), data.get('Premium', '0')]
 
-file.close()
+        line_str = ','.join(line_list)
+        file.write(line_str)
+
+        print('added', country_code)
+        SCRAPED_REGIONS.append(country_code)
+
+    file.close()
+    save_scraped_regions()
+except:
+    file.close()
+    save_scraped_regions()
