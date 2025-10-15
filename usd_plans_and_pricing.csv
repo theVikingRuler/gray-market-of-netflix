@@ -2,7 +2,7 @@ af,Afghanistan,0,$3.99/month,$7.99/month,$9.99/month
 ax,Åland Islands,0,$11.03 / month,$16.26 / month,$20.91 / month
 al,Albania,0,$5.80 / month,$9.29 / month,$11.61 / month
 dz,Algeria,0,$3.99/month,$7.99/month,$9.99/month
-as,American Samoa,0,0,$17.99 / month,$24.99 / month
+as,American Samoa,0,$7.99 / month,$17.99 / month,$24.99 / month
 ad,Andorra,0,$10.45 / month,$16.26 / month,$23.24 / month
 ao,Angola,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 ai,Anguilla,0,$10.99/month,$15.49/month,$19.99/month
@@ -11,7 +11,7 @@ ag,Antigua & Barbuda,0,$10.99 / month,$15.49 / month,$19.99 / month
 ar,Argentina,0,$5.30 / month,$8.84 / month,$11.79 / month
 am,Armenia,0,$9.29 / month,$11.61 / month,$13.94 / month
 aw,Aruba,0,$10.99/month,$15.49/month,$19.99/month
-au,Australia,0,0,$13.67 / month,$18.88 / month
+au,Australia,0,$6.51 / month,$13.67 / month,$18.88 / month
 at,Austria,0,$10.45 / month,$16.26 / month,$23.24 / month
 az,Azerbaijan,0,$9.29 / month,$11.61 / month,$13.94 / month
 bs,Bahamas,0,$10.99/month,$15.49/month,$19.99/month
@@ -21,7 +21,7 @@ bb,Barbados,0,$10.59 / month,$15.29 / month,$18.79 / month
 by,Belarus,0,$9.29 / month,$11.61 / month,$13.94 / month
 be,Belgium,0,$11.61/month,$17.43/month,$23.24/month
 bz,Belize,0,$3.99 / month,$5.99 / month,$7.99 / month
-bj,Benin,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
+bj,Benin,$2.99 / msonth,$3.99 / month,$7.99 / month,$9.99 / month
 bm,Bermuda,0,$10.99/month,$15.49/month,$19.99/month
 bt,Bhutan,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 bo,Bolivia,0,$3.99 / month,$5.99 / month,$7.99 / month
@@ -37,7 +37,7 @@ bf,Burkina Faso,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 bi,Burundi,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 kh,Cambodia,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 cm,Cameroon,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
-ca,Canada,0,0,$13.53 / month,$17.09 / month
+ca,Canada,0,$5.69 / month,$13.53 / month,$17.09 / month
 cv,Cape Verde,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 bq,Caribbean Netherlands,0,$10.99/month,$15.49/month,$19.99/month
 ky,Cayman Islands,0,$10.99/month,$15.49/month,$19.99/month
@@ -74,10 +74,10 @@ fk,Falkland Islands,0,$11.99 / month,$17.99 / month,$24.99 / month
 fo,Faroe Islands,0,$13.85 / month,$20.08 / month,$26.31 / month
 fj,Fiji,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 fi,Finland,0,$11.03 / month,$16.26 / month,$20.91 / month
-fr,France,0,0,$17.43 / month,$25.56 / month
+fr,France,0,$9.29 / month,$17.43 / month,$25.56 / month
 gf,French Guiana,0,$13.94 / month,$17.43 / month,$25.56 / month
 pf,French Polynesia,$6.49/month,$10.99/month,$13.99/month,$17.99/month
-tf,French Southern Territories,0,0,$17.43 / month,$25.56 / month
+tf,French Southern Territories,0,$9.29 / month,$17.43 / month,$25.56 / month
 ga,Gabon,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 gm,Gambia,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 ge,Georgia,0,$10.92/month,$13.71/month,$16.26/month
@@ -88,9 +88,9 @@ gr,Greece,0,$10.45/month,$14.52/month,$18.59/month
 gl,Greenland,0,$13.85 / month,$20.08 / month,$26.31 / month
 gd,Grenada,0,$3.99 / month,$5.99 / month,$7.99 / month
 gp,Guadeloupe,0,$13.94 / month,$17.43 / month,$25.56 / month
-gu,Guam,0,0,$17.99 / month,$24.99 / month
+gu,Guam,0,$7.99 / month,$17.99 / month,$24.99 / month
 gt,Guatemala,0,$5.99 / month,$8.99 / month,$12.49 / month
-gg,Guernsey,0,0,$17.36 / month,$25.37 / month
+gg,Guernsey,0,$6.97 / month,$17.36 / month,$25.37 / month
 gn,Guinea,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 gw,Guinea-Bissau,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 gy,Guyana,0,$3.99 / month,$5.99 / month,$7.99 / month
@@ -105,12 +105,12 @@ id,Indonesia,$3.26 / month,$3.92 / month,$7.24 / month,$11.22 / month
 ir,Iran,0,$3.99 / month,$7.99 / month,$9.99 / month
 iq,Iraq,0,$3.99 / month,$7.99 / month,$9.99 / month
 ie,Ireland,0,$12.78 /month,$19.75 / month,$27.89 / month
-im,Isle of Man,0,0,$17.36 / month,$25.37 / month
+im,Isle of Man,0,$6.97 / month,$17.36 / month,$25.37 / month
 il,Israel,0,$9.98 / month,$16.65 / month,$21.20 / month
-it,Italy,0,0,$16.26 / month,$23.24 / month
+it,Italy,0,$8.13 / month,$16.26 / month,$23.24 / month
 jm,Jamaica,0,$4.99 / month,$6.99 / month,$9.99 / month
 jp,Japan,0,$5.89 / month,$10.53 / month,$15.16 / month
-je,Jersey,0,0,$17.36 / month,$25.37 / month
+je,Jersey,0,$6.97 / month,$17.36 / month,$25.37 / month
 jo,Jordan,0,$3.99/month,$7.99/month,$9.99/month
 kz,Kazakhstan,0,$9.29 / month,$11.61 / month,$13.94 / month
 ke,Kenya,$1.56 / month,$2.33 / month,$5.45 / month,$8.56 / month
@@ -133,13 +133,13 @@ my,Malaysia,$4.47 / month,$7.07 / month,$11.81 / month,$14.88 / month
 mv,Maldives,$6.49 / month,$10.99 / month,$13.99 / month,$17.99 / month
 ml,Mali,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 mt,Malta,0,$10.45 / month,$16.26 / month,$23.24 / month
-mh,Marshall Islands,0,0,$17.99 / month,$24.99 / month
+mh,Marshall Islands,0,$7.99 / month,$17.99 / month,$24.99 / month
 mq,Martinique,0,$13.94 / month,$17.43 / month,$25.56 / month
 mr,Mauritania,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 mu,Mauritius,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 yt,Mayotte,0,$13.94 / month,$17.43 / month,$25.56 / month
-mx,Mexico,0,0,$13.50 / month,$17.83 / month
-fm,Micronesia,0,0,$17.99 / month,$24.99 / month
+mx,Mexico,0,$6.45 / month,$13.50 / month,$17.83 / month
+fm,Micronesia,0,$7.99 / month,$17.99 / month,$24.99 / month
 md,Moldova,0,$9.29 / month,$11.61 / month,$13.94 / month
 mc,Monaco,0,$13.94 / month,$17.43 / month,$25.56 / month
 mn,Mongolia,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
@@ -164,7 +164,7 @@ mk,North Macedonia,0,$5.08 / month,$9.29 / month,$11.61 / month
 no,Norway,0,$9.80 / month,$12.77 / month,$18.72 / month
 om,Oman,0,$8.39/month,$10.49/month,$15.79/month
 pk,Pakistan,$0.89 / month,$1.60 / month,$2.84 / month,$3.90 / month
-pw,Palau,0,0,$17.99 / month,$24.99 / month
+pw,Palau,0,$7.99 / month,$17.99 / month,$24.99 / month
 ps,Palestine,0,$3.99 / month,$7.99 / month,$9.99 / month
 pa,Panama,0,$5.99 / month,$9.99 / month,$13.99 / month
 pg,Papua New Guinea,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
@@ -174,13 +174,13 @@ ph,Philippines,$2.91 / month,$4.80 / month,$7.73 / month,$10.66 / month
 pn,Pitcairn Islands,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 pl,Poland,0,$9.02 / month,$13.40 / month,$18.32 / month
 pt,Portugal,0,$10.45 / month,$15.10 / month,$20.91 / month
-pr,Puerto Rico,0,0,$17.99 / month,$24.99 / month
-qa,Qatar,0,$8.99/month,$11.99/month,$17.99/month
+pr,Puerto Rico,0,$7.99 / month,$17.99 / month,$24.99 / month
+qa,Qatar,0,$8.99 / month,$11.99 / month,$17.99 / month
 re,Réunion,0,$12.78 / month,$15.68 / month,$20.91 / month
 ro,Romania,0,$6.96 / month,$12.78 / month,$16.26 / month
 rw,Rwanda,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 ws,Samoa,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
-sm,San Marino,0,0,$16.26 / month,$23.24 / month
+sm,San Marino,0,$8.13 / month,$16.26 / month,$23.24 / month
 st,São Tomé & Príncipe,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 sa,Saudi Arabia,0,$9.33 / month,$13.06 / month,$18.93 / month
 sn,Senegal,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
@@ -197,7 +197,7 @@ za,South Africa,$3.41 / month,$5.73 / month,$10.35 / month,$13.25 / month
 gs,South Georgia & South Sandwich Islands,0,$11.99 / month,$17.99 / month,$24.99 / month
 kr,South Korea,0,$4.92 / month,$9.50 / month,$11.96 / month
 ss,South Sudan,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
-es,Spain,0,0,$16.26 / month,$23.24 / month
+es,Spain,0,$8.13 / month,$16.26 / month,$23.24 / month
 lk,Sri Lanka,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 bl,St. Barthélemy,0,$3.99 / month,$5.99 / month,$7.99 / month
 sh,St. Helena,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
@@ -226,16 +226,16 @@ tm,Turkmenistan,0,$9.29 / month,$11.61 / month,$13.94 / month
 tc,Turks & Caicos Islands,0,$10.99/month,$15.49/month,$19.99/month
 tv,Tuvalu,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 um,U.S. Outlying Islands,0,$11.99 / month,$17.99 / month,$24.99 / month
-vi,U.S. Virgin Islands,0,0,$17.99 / month,$24.99 / month
+vi,U.S. Virgin Islands,0,$7.99 / month,$17.99 / month,$24.99 / month
 ug,Uganda,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
 ua,Ukraine,0,$5.08 / month,$8.71 / month,$11.61 / month
 ae,United Arab Emirates,0,$9.53 / month,$13.34 / month,$19.33 / month
-gb,United Kingdom,0,0,$17.36 / month,$25.37 / month
-us,United States,0,0,$17.99 / month,$24.99 / month
+gb,United Kingdom,0,$6.77 / month,$17.36 / month,$25.37 / month
+us,United States,0,$7.99 / month,$17.99 / month,$24.99 / month
 uy,Uruguay,0,$11.99/month,$16.99/month,$21.99/month
 uz,Uzbekistan,0,$9.29 / month,$11.61 / month,$13.94 / month
 vu,Vanuatu,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
-va,Vatican City,0,0,$16.26 / month,$23.24 / month
+va,Vatican City,0,$8.13 / month,$16.26 / month,$23.24 / month
 ve,Venezuela,0,$3.99 / month,$5.99 / month,$7.99 / month
 vn,Vietnam,$2.81 / month,$4.33 / month,$8.77 / month,$10.36 / month
 wf,Wallis & Futuna,$2.99 / month,$3.99 / month,$7.99 / month,$9.99 / month
