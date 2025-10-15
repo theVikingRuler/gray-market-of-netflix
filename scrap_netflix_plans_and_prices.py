@@ -45,8 +45,13 @@ def extract_netflix_pricing(url: str) -> dict:
     for li in container.find_all(["li", "p"], recursive=True):
         text = li.get_text(" ", strip=True)
         # flexible pattern: e.g. "Basic - $3.99/month" or "Basic: $3.99"
-        import re
-        m = re.search(r"(\b\w+\b)[\s:–-]+([$€₹]\s?\d+(?:\.\d+)?\s*/?\s*\w*)", text)
+        import re n
+        m = re.search(
+            r"(\b[\w\s]+\b)\s*[:–-]\s*((?:(?:[₹$€£₩₫₱₦]|Rs|VND|PKR|USD|EUR|GBP|NZ\$|NOK|PEN|AU\$|R\$|ARS)\s?)?\d+(?:\.\d+)?\s*(?:[₹$€£₩₫₱₦]|Rs|VND|PKR|USD|EUR|GBP|NZ\$|NOK|PEN|AU\$|R\$|ARS)?(?:\s*/?\s*\w+)?)",
+            text,
+            re.IGNORECASE
+        )
+
         if m:
             plan, price = m.groups()
             pricing[plan] = price
@@ -79,7 +84,6 @@ def save_scraped_regions():
 
 os.system("clear")
 
-
 SCRAPED_REGIONS = read_scraped_regions()
 file = open("result.csv", "w")
 try:
@@ -93,6 +97,8 @@ try:
         target_url = BASE_URL + country_code
 
         data = extract_netflix_pricing(target_url)
+
+        print(data)
 
         if data == {}:
             continue
